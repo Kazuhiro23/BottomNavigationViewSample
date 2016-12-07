@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="shortcut1"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_short_label1"
+        android:shortcutLongLabel="@string/shortcut_long_label1"
+        android:shortcutDisabledMessage="@string/shortcut_disable_label1">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.kazuhiro23.bottomnavigationviewsample"
+            android:targetClass="com.kazuhiro23.bottomnavigationviewsample.MainActivity" />
+
+        <categories android:name="android.shortcut.conversation" />
+
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="shortcut2"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_short_label2"
+        android:shortcutLongLabel="@string/shortcut_long_label2"
+        android:shortcutDisabledMessage="@string/shortcut_disable_label2">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.kazuhiro23.bottomnavigationviewsample"
+            android:targetClass="com.kazuhiro23.bottomnavigationviewsample.SubActivity" />
+
+        <categories android:name="android.shortcut.conversation" />
+
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="shortcut3"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_short_label3"
+        android:shortcutLongLabel="@string/shortcut_long_label3"
+        android:shortcutDisabledMessage="@string/shortcut_disable_label3">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.numero.appshortcutsexample"
+            android:targetClass="com.numero.appshortcutsexample.SubActivity" />
+
+        <categories android:name="android.shortcut.conversation" />
+
+    </shortcut>
+
+</shortcuts>
+

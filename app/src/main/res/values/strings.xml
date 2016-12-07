@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BottomNavigationViewSample</string>
+    <string name="shortcut_long_label1">long shortcut1</string>
+    <string name="shortcut_long_label2">long shortcut2</string>
+    <string name="shortcut_long_label3">long shortcut3</string>
+    <string name="shortcut_short_label1">shortcut1</string>
+    <string name="shortcut_short_label2">shortcut2</string>
+    <string name="shortcut_short_label3">shortcut3</string>
+    <string name="shortcut_disable_label1">disable shortcut1</string>
+    <string name="shortcut_disable_label2">disable shortcut1</string>
+    <string name="shortcut_disable_label3">disable shortcut1</string>
+    <string name="sub_activity">SUB</string>
+</resources>
